@@ -286,8 +286,8 @@ def process_audio_with_generative_adaptive_delay(
         input_signal,
         sampling_rate,
         output_filename,
-        frame_size=1024,
-        gain_delay=0.5,
+        frame_size=8192,
+        gain_delay=0.4,
         cutoff_frequency=1.0,
         waveform_plot=None,
         spectrogram_plot=None
@@ -318,9 +318,9 @@ def process_audio_with_generative_adaptive_delay(
         [0.2, 0.3, 0.5]
     ])
     delay_times = {
-        "short": [0.01, 0.025, 0.05, 0.075, 0.1],
-        "medium": [0.1, 0.2, 0.3, 0.4, 0.5],
-        "long": [0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        "short": [0.05, 0.1, 0.15, 0.2],
+        "medium": [0.3, 0.4, 0.5, 0.6],
+        "long": [0.7, 0.8, 0.9, 1.0]
     }
 
     # Create MarkovChain instance
