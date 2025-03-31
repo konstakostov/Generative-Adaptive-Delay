@@ -23,6 +23,6 @@ output_signal = process_audio_with_generative_adaptive_delay(
     input_signal=input_signal,
     sampling_rate=sampling_rate,
     output_filename=output_filename,
-    waveform_plot="../Plots/atg_comparison_wav_02.png",
-    spectrogram_plot="../Plots/spc_comparison_wav_02.png"
+    waveform_plot="../Plots/atg_comparison_wav_04.png",
+    spectrogram_plot="../Plots/spc_comparison_wav_04.png"
 )
