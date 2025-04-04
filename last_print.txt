@@ -1,0 +1,38 @@
+Windows 5 to 14 of processed data:
+Window Time (s) Input Value     RMS Value       Normalized RMS  Current State   Next State      Delay Time      Output Value
+------------------------------------------------------------------------------------------------------------------------
+0.9288          0.0019          0.1415          0.8436          long            medium          0.4             0.0012
+1.1146          0.1483          0.1697          1               medium          short           0.1             0.198
+1.3003          0.1012          0.1648          0.973           short           medium          0.5             0.1118
+1.4861          -0.183          0.1428          0.851           medium          long            1               -0.1836
+1.6718          -0.1465         0.1237          0.7448          long            medium          0.3             -0.1717
+1.8576          -0.0002         0.115           0.6965          medium          long            0.8             0.0051
+2.0434          0.0596          0.1103          0.6708          long            medium          0.4             0.1031
+2.2291          -0.1462         0.1             0.6133          medium          short           0.05            -0.1523
+2.4149          -0.052          0.0828          0.5182          short           medium          0.4             -0.0538
+2.6006          0.1227          0.0706          0.4507          medium          long            0.8             0.0931
+
+The displayed windows represent 1.8576 seconds of the processed signal (from 0.9288s to 2.7864s).
+With delay effects visible until 3.7864s
+Processed signal saved to ../Audio-Outputs/processed_original_recording_01_01.wav
+Waveform plots saved as ../Plots/atg_comparison_processed_original_recording_01_01_overlay.png and ../Plots/atg_comparison_processed_original_recording_01_01_detail.png
+
+
+Windows 5 to 14 of processed data:
+Window Time (s) Input Value     RMS Value       Normalized RMS  Current State   Next State      Delay Time      Output Value
+------------------------------------------------------------------------------------------------------------------------
+0.9288          0.017           0.0616          0.4278          long            short           0.2             0.0171
+1.1146          0.0063          0.0907          0.6355          short           long            1               0.0061
+1.3003          -0.0086         0.1079          0.7585          long            medium          0.4             -0.0082
+1.4861          -0.0093         0.1082          0.7604          medium          long            0.8             -0.0123
+1.6718          0.1083          0.1001          0.7024          long            medium          0.4             0.0429
+1.8576          0.0674          0.0938          0.6576          medium          medium          0.3             0.0794
+2.0434          -0.1833         0.0923          0.6472          medium          long            0.7             -0.1566
+2.2291          0.0445          0.093           0.6518          long            long            0.9             0.0943
+2.4149          0.0892          0.093           0.6521          long            long            0.9             0.0843
+2.6006          -0.0374         0.0918          0.6432          long            long            0.9             -0.0624
+
+The displayed windows represent 1.8576 seconds of the processed signal (from 0.9288s to 2.7864s).
+With delay effects visible until 3.7864s
+Processed signal saved to ../Audio-Outputs/processed_original_recording_03_01.wav
+Waveform plots saved as ../Plots/atg_comparison_processed_original_recording_03_01_overlay.png and ../Plots/atg_comparison_processed_original_recording_03_01_detail.png

@@ -5,8 +5,8 @@ from generative_adaptive_delay import process_audio_with_generative_adaptive_del
 
 
 # Define input and output file paths
-input_filename = "../Audio-Samples/sample_guitar_02.wav"
-output_filename = "../Audio-Outputs/sample_guitar_02_wav_01.wav"
+input_filename = "../Audio-Samples/original_recording_01.wav"
+output_filename = "../Audio-Outputs/processed_original_recording_01_01.wav"
 
 # Load the input audio file
 input_signal, sampling_rate = sf.read(input_filename)
@@ -23,6 +23,7 @@ output_signal = process_audio_with_generative_adaptive_delay(
     input_signal=input_signal,
     sampling_rate=sampling_rate,
     output_filename=output_filename,
-    waveform_plot="../Plots/atg_comparison_wav_04.png",
-    spectrogram_plot="../Plots/spc_comparison_wav_04.png"
+    display_window_start=5,    # Start from window No
+    display_window_count=10,    # Number of windows to display
+    waveform_plot="../Plots/atg_comparison_processed_original_recording_01_01.png",
 )

@@ -123,6 +123,7 @@ if len(input_signal) > 0:
         input_signal=input_signal,
         sampling_rate=sampling_rate,
         output_filename=processed_filename,
+        display_window_start=5,  # Start from window No
+        display_window_count=10,  # Number of windows to display
         waveform_plot="../Plots/atg_comparison_rec_01.png",
-        spectrogram_plot="../Plots/spc_comparison_rec_01.png"
     )
